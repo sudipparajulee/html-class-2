@@ -1,0 +1,35 @@
+body{
+    font-family: sans-serif;
+}
+
+.menu{
+    list-style-type: none;
+    background-color: blue;
+    text-align: right;
+    padding: 10px;
+}
+
+.menu li{
+    padding: 10px;
+    display: inline;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.mydiv{
+    text-align: center;
+    background-color: blue;
+    color: white;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.center{
+    text-align: center;
+}

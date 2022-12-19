@@ -1,0 +1,10 @@
+.outer-div{
+    width: 25%;
+    float: left;
+}
+
+.inner-div{
+    background-color: blue;
+    color: white;
+    margin: 10px;
+}

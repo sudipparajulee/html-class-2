@@ -1,0 +1,99 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.myflex{
+    display: flex;
+    padding: 10px 150px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.myflex div{
+    flex: 1;
+    background-color: rgb(227, 227, 227);
+    color: rgb(16, 13, 13);
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.myflex img{
+    width: 80%;
+    border-radius: 50%;
+}
+
+.flex{
+    display: flex;
+    background-color: rgb(139, 189, 233);
+    height: 500px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.flex h1{
+    background-color: rgb(128, 140, 140);
+    height: 50px;
+    margin: 2px;
+}
+
+.topbar{
+    background-color: red;
+    color: white;
+    padding: 15px 150px;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainbar{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.logo img{
+    height: 150px;
+}
+
+.title{
+    text-align: center;
+    color: red;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.big-title{
+    font-size: 48px;
+}
+
+
+.flag img{
+    height: 100px;
+}
+
+.menu-bar{
+    background-color: blue;
+}
+
+.menu{
+    text-align: center;
+    padding: 10px;
+}
+
+.menu li{
+    display: inline;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}

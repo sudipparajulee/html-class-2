@@ -1,0 +1,61 @@
+body{
+    font-family: sans-serif;
+    background: rgb(72,201,19);
+background: linear-gradient(37deg, rgba(72,201,19,1) 0%, rgba(0,35,255,1) 100%);
+}
+
+.menu{
+    background-color: blue;
+    padding: 10px;
+    text-align: right;
+}
+
+.menu li{
+    display: inline;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.login-form{
+    background-color: blue;
+    width: 500px;
+    margin: auto;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.input-group{
+    margin: 15px;
+}
+
+.input-group input{
+    width: 90%;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+}
+
+.input-group button{
+    padding: 8px 20px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    background: rgb(72,201,19);
+background: linear-gradient(37deg, rgba(72,201,19,1) 0%, rgba(0,35,255,1) 100%);
+    color: white;
+    width: 50%;
+}
+
+.input-group button:hover{
+    background-color: rgb(228, 63, 63);
+}
+
+.input-group input:focus{
+    outline: none;
+}

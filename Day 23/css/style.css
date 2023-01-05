@@ -1,0 +1,32 @@
+.myheading{
+    background-image: url('../images/bg.jpg');
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    position: relative;
+    background-attachment: fixed;
+
+}
+
+.inner-heading{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.575);
+    display: flex;
+    align-items: center;
+}
+
+.inner-heading p{
+    color: white;
+    margin-left: 20px;
+}
+
+
+/* .mydiv:hover img{
+    transform: scale(1.02);
+    transition: 0.6s;
+} */
